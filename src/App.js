@@ -18,7 +18,7 @@ class App extends Component {
           <Route exact path="/not-found" Component={NotFound} />
           <Route exact path="/notifications" Component={Notifications} />
           <Route exact path="/settings" Component={Settings} />
-          <Route path="*" element={<Navigate to="/not-found" />} />
+          {/* <Route path="*" element={<Navigate to="/not-found" />} /> */}
         </Routes>
       </BrowserRouter>
     );
