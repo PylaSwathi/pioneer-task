@@ -1,0 +1,23 @@
+.notifications-cont {
+  display: flex;
+}
+
+.notifications-below-cont {
+  background-color: black;
+  width: 75%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .notifications-cont {
+    flex-direction: column;
+  }
+  .notifications-below-cont {
+    width: 100%;
+  }
+}
