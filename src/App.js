@@ -10,7 +10,7 @@ import Settings from "./components/Settings";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="pioneer-task">
         <Routes>
           <Route exact path="/" Component={Home} />
           <Route exact path="/prices" Component={Prices} />
